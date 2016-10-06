@@ -41,8 +41,9 @@ public class MyClass {
             } else {
                 writingCode = true;
             }
+            timeOfDay = timeOfDay + 1;
         }
-        timeOfDay = timeOfDay + .15;
+
 
         if (dinnerEaten && timeOfDay > 22.00) {
             awake = false;
